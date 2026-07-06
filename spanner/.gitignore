@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Poetry usually manages these outside the project)
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Poetry-specific
+# Keep poetry.lock in version control for reproducibility
+# Ignore Poetry's local config
+.poetry/
+
+# Optional: if you use pytest's cache or mypy cache
+.mypy_cache/
+.pyre/
+# keys
+.json
