@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pythonfile"
+version = "0.1.0"
+description = ""
+authors = ["Tehrim Arfin Shamsi","168177446+TehrimShamsi@users.noreply.github.com"]
+packages = [
+    { include = "pythonfile" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-cloud-spanner = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
