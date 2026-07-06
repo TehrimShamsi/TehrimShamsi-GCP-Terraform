@@ -44,4 +44,4 @@ Thumbs.db
 .mypy_cache/
 .pyre/
 # keys
-.json
+/workspaces/TehrimShamsi-FirstRepo/spanner/qwiklabs-gcp-04-7bbe71168d36-d98d464a2d0d.json
